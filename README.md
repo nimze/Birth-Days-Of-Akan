@@ -1,5 +1,5 @@
 ##Birth Days Of Akan
-This project is a landing page. It enables an Akan person to enter their birth day, month, year and century to find out their Akan name.
+-This project is a landing page. It enables an Akan person to enter their birth day, month, year and gender to find out their Akan name.
 
 ##Author
 Naima Abdi
