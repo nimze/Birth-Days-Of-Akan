@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIRTH DAYS OF THE AKAN PEOPLE</title>
+    <link 
+    rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+    <link
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#about"><button>About</button></a></li>
+        </ul>
+    </nav>
+    <h1>Welcome to the Akan Community!!</h1>
+</header>
+<body>
+    <section class="container" id="about">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h3>Akwaaba!!!(welcome)</h3>
+                <p>As the Akan Commnunity, we have a unique way of naming our children.We name them after the 
+                    days of the week. However, many don't know their Akan names.
+                </p>
+                <p>If you are an Akani and would want to know your<strong>Akan name</strong> try entering your details and find out what day of the week you were born.</p>
+                <p>Amazing, right?! </p>
+                <p>What are you waiting for? Sumit your birth details <strong>NOW!!</strong></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form method="POST">
+                    <label>Day</label>
+                    <input type="number" id="day" class="form-control form-control-lg" placeholder="Enter Day" required><br>
+                    <label>Month</label>
+                    <input type="number" id="month" class="form-control form-control-lg" placeholder="Enter Month" required><br>
+                    <label>Year</label>
+                    <input type="number" id="year" class="form-control form-control-lg" placeholder="Enter Year" required><br>
+                    <label>Gender</label>
+                    <select class="form-control form-control-lg">
+                        <option id="male" value="Male">Male</option>
+                        <option id="female" value="Female">Female</option>
+                    </select><br>
+                    <a class="btn btn-info" onclick= "hp()" >Submit</a><br>
+                    <p id="output"></p>
+                </form><br>
+            </div>
+        </div>
+        </section>
+        <script 
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+        crossorigin="anonymous">
+        </script>
+        <script 
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous">
+        </script>
+        <script 
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+        crossorigin="anonymous">
+        </script>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+    </html>
